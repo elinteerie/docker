@@ -1,0 +1,10 @@
+
+version: '3'
+
+services: 
+    poress:
+      image: postgres
+      ports:
+        - "3000:5432"
+      environment:
+        - POSTGRES_PASSWORD=Coro@1Auth0
